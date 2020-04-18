@@ -6,7 +6,7 @@ import EventShow from "@/views/EventShow.vue";
 
 Vue.use(VueRouter);
 
-this.mode = history;
+VueRouter.mode = history;
 
 const routes = [
   {
